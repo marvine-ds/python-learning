@@ -20,3 +20,11 @@ def check_reverse(first_word, second_word):
     return True
 
 print(check_reverse("pots", "stop"))
+
+# A function that prints the number of times a char appears in a string
+word= input("Enter any word :")
+def count_char() :
+     for letter in set(word):
+      print(letter ,word.count(letter))
+print(count_char())      
+    
