@@ -1,2 +1,6 @@
-txt = "We are the so-called \"Vikings\" from the north."
-print(txt)
+def compare_nums(a,b) :
+    if a > b :
+        print(f" {a} is greater than {b}")
+    else :
+        print(f"{a} is less than {b}")
+compare_nums(30,70)            
